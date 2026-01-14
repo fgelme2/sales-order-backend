@@ -1,11 +1,3 @@
-id,createdAt,createdBy,modifiedAt,modifiedBy
-20678440-6567-4b3a-99cd-246bf307b4ff,2008-11-12T02:00:00.000Z,createdBy.18bk4@example.net,2002-01-26T02:00:00.000Z,modifiedBy.18bk4@example.org
-2067845a-a2de-425c-b54c-0650185a3fc0,2016-06-05T02:00:00.000Z,createdBy.18bk5@example.com,2010-03-06T02:00:00.000Z,modifiedBy.18bk5@example.com
-20678465-8751-4e0f-bba6-2c16f294f7a6,2010-10-21T02:00:00.000Z,createdBy.18bk6@example.org,2016-04-08T02:00:00.000Z,modifiedBy.18bk6@example.com
-20678476-9e3d-47b0-ac69-2dc042ac44ce,2010-05-26T02:00:00.000Z,createdBy.18bk7@example.org,2015-03-16T02:00:00.000Z,modifiedBy.18bk7@example.com
-20678482-f300-4642-bd39-243f6ccbcffe,2000-11-25T02:00:00.000Z,createdBy.18bk8@example.com,2011-07-25T02:00:00.000Z,modifiedBy.18bk8@example.net
-20678495-2d38-4fa2-ade8-c311801ac32b,2012-02-24T02:00:00.000Z,createdBy.18bk9@example.com,2023-10-09T02:00:00.000Z,modifiedBy.18bk9@example.net
-2067850f-9688-4e8f-b1ec-ca5e25d63492,2016-05-05T02:00:00.000Z,createdBy.18bka@example.com,2022-01-22T02:00:00.000Z,modifiedBy.18bka@example.net
-2067851c-a653-4585-a0e9-cf95cac66005,2005-12-31T02:00:00.000Z,createdBy.18bkb@example.com,2007-07-05T02:00:00.000Z,modifiedBy.18bkb@example.com
-2067852c-5b31-4362-85d5-e2132a60cd9a,2019-02-04T02:00:00.000Z,createdBy.18bkc@example.net,2018-11-10T02:00:00.000Z,modifiedBy.18bkc@example.org
-20678534-e7a9-4d6a-8909-3b3313c52f8e,2000-01-12T02:00:00.000Z,createdBy.18bkd@example.com,2010-12-13T02:00:00.000Z,modifiedBy.18bkd@example.net
+id,customer_id,totalAmount,createdAt,createdBy,modifiedAt,modifiedBy
+22806971-b1fc-4930-b8cf-ecc2aff65d6c,26058248-a2ce-4b81-bf33-e26b7408de3f,152.4,2003-03-05T02:00:00.000Z,jennifer.thomas@yahoo.com,2022-01-04T02:00:00.000Z,robert.hernandez@gmail.com
+22806972-2642-4223-8730-e2c11627355e,26058248-a2ce-4b81-bf33-e26b7408de3f,0.0,2014-11-26T02:00:00.000Z,elizabeth.wilson@example.org,2015-03-02T02:00:00.000Z,thomas.moore@gmail.com
