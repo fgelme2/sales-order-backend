@@ -1,2 +1,9 @@
+
 GET http://localhost:4004/odata/v4/main/SalesOrderHeaders
-Content-Type: Application-Json
+Content-Type: Application-Json 
+
+
+###
+
+POST http://localhost:4004/odata/v4/main/SalesOrderHeaders
+Content-Type: Application-Json 
