@@ -1,0 +1,59 @@
+@localhost=localhost:4004/odata/v4/main
+@id=919034a5-11ae-423d-a481-e57d96c11b07
+
+GET http://{{localhost}}/Customers
+Content-Type: application/json
+
+###
+
+POST http://{{localhost}}/Customers
+Content-Type: application/json
+//criacao
+{
+    "id": "{{id}}",
+    "firstName": "Felipe",
+    "lastName": "Zica",
+    "email": "felipe@zica.com.br"
+}
+
+###
+
+DELETE http://{{localhost}}/Customers(id={{id}})
+Content-Type: application/json
+//delecao
+###
+
+PUT http://{{localhost}}/Customers(id={{id}})
+Content-Type: application/json
+//atualizacao full tem que informar todos os dados
+{
+    "firstName": "John"
+}
+
+###
+
+PATCH http://{{localhost}}/Customers(id={{id}})
+Content-Type: application/json
+// atualização parcial
+{
+    "firstName": "John"
+}
+
+###
+
+GET http://{{localhost}}/Customers?$filter=endswith(firstName,'-15835090') and email ne 'email-15835090'
+Content-Type: application/json
+
+###
+
+# Buscando dados com $search
+
+GET http://{{localhost}}/Customers?$search=firstName2
+Content-Type: application/json
+
+###
+
+# Ordenando dados com $orderby
+
+GET http://{{localhost}}/Customers?$orderby=firstName desc,lastName
+Content-Type: application/json
