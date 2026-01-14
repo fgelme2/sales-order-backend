@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^2",
+    "eslint": "^9.39.2",
     "git-commit-msg-linter": "^5.0.8"
   },
   "scripts": {
